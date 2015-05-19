@@ -1,5 +1,8 @@
 # packcomp
 
+[![Dependency Status](https://david-dm.org/guyellis/packcomp.svg)](https://david-dm.org/guyellis/packcomp)
+[![Code Climate](https://codeclimate.com/github/guyellis/packcomp/badges/gpa.svg)](https://codeclimate.com/github/guyellis/packcomp)
+
 Compare the `dependencies` and `devDependencies` keys (sections) from
 two `package.json` files.
 
