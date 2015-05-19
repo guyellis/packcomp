@@ -1,0 +1,44 @@
+{
+  "name": "packcomp",
+  "version": "0.0.1",
+  "author": "Guy Ellis <wildfiction@gmail.com>",
+  "description": "Compare Dependencies in two package.json files",
+  "bin": {
+    "packcomp": "./bin/packcomp.js"
+  },
+  "main": "./bin/packcomp.js",
+  "public": true,
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --recursive",
+    "lint": "node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyellis/packcomp.git"
+  },
+  "dependencies": {
+    "console.table": "^0.4.0",
+    "lodash": "~3.8.0",
+    "minimist": "~1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.21.2"
+  },
+  "keywords": [
+    "package.json",
+    "difference",
+    "comparison",
+    "diff"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guyellis/packcomp/issues"
+  },
+  "homepage": "https://github.com/guyellis/packcomp#readme",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
