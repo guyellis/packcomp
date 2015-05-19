@@ -1,6 +1,6 @@
 {
   "name": "packcomp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Guy Ellis <wildfiction@gmail.com>",
   "description": "Compare Dependencies in two package.json files",
   "bin": {
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "console.table": "^0.4.0",
+    "debug": "^2.2.0",
     "lodash": "~3.8.0",
     "minimist": "~1.1.1"
   },
