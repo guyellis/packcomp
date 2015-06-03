@@ -1,8 +1,8 @@
 {
   "name": "packcomp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Guy Ellis <wildfiction@gmail.com>",
-  "description": "Compare Dependencies in two package.json files",
+  "description": "Compare Dependencies in two or more package.json files",
   "bin": {
     "packcomp": "./bin/packcomp.js"
   },
@@ -22,11 +22,11 @@
   "dependencies": {
     "console.table": "^0.4.0",
     "debug": "^2.2.0",
-    "lodash": "^3.8.0",
+    "lodash": "^3.9.3",
     "minimist": "^1.1.1"
   },
   "devDependencies": {
-    "eslint": "^0.21.2"
+    "eslint": "^0.22.1"
   },
   "keywords": [
     "package.json",
