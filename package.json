@@ -1,33 +1,27 @@
 {
-  "name": "packcomp",
-  "version": "0.0.3",
   "author": "Guy Ellis <wildfiction@gmail.com>",
-  "description": "Compare Dependencies in two or more package.json files",
   "bin": {
     "packcomp": "./bin/packcomp.js"
   },
-  "main": "./bin/packcomp.js",
-  "public": true,
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --recursive",
-    "lint": "node_modules/.bin/eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/guyellis/packcomp.git"
+  "bugs": {
+    "url": "https://github.com/guyellis/packcomp/issues"
   },
   "dependencies": {
     "console.table": "^0.4.0",
     "debug": "^2.2.0",
-    "lodash": "^3.9.3",
+    "lodash": "^4.0.0",
     "minimist": "^1.1.1"
   },
+  "description": "Compare Dependencies in two or more package.json files",
   "devDependencies": {
-    "eslint": "^0.22.1"
+    "eslint": "^1.0.0",
+    "eslint-config-guyellis": "0.0.4",
+    "mocha": "^2.3.4"
   },
+  "engines": {
+    "node": ">=5.0"
+  },
+  "homepage": "https://github.com/guyellis/packcomp#readme",
   "keywords": [
     "package.json",
     "difference",
@@ -35,11 +29,19 @@
     "diff"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/guyellis/packcomp/issues"
+  "main": "./bin/packcomp.js",
+  "name": "packcomp",
+  "public": true,
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/guyellis/packcomp#readme",
-  "engines": {
-    "node": ">=0.10"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyellis/packcomp.git"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint .",
+    "test": "node_modules/.bin/mocha --recursive"
+  },
+  "version": "0.0.3"
 }
