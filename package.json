@@ -7,15 +7,15 @@
     "url": "https://github.com/guyellis/packcomp/issues"
   },
   "dependencies": {
-    "console.table": "^0.6.0",
+    "console.table": "^0.7.0",
     "debug": "^2.2.0",
     "lodash": "^4.0.0",
     "minimist": "^1.1.1"
   },
   "description": "Compare Dependencies in two or more package.json files",
   "devDependencies": {
-    "eslint": "^1.0.0",
-    "eslint-config-guyellis": "0.0.4",
+    "eslint": "^2.0.0",
+    "eslint-config-guyellis": "0.0.6",
     "mocha": "^2.3.4"
   },
   "engines": {
@@ -43,5 +43,5 @@
     "lint": "node_modules/.bin/eslint .",
     "test": "node_modules/.bin/mocha --recursive"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
