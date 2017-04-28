@@ -1,5 +1,7 @@
 # packcomp
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/guyellis/packcomp.svg)](https://greenkeeper.io/)
+
 [![Dependency Status](https://david-dm.org/guyellis/packcomp.svg)](https://david-dm.org/guyellis/packcomp)
 [![Code Climate](https://codeclimate.com/github/guyellis/packcomp/badges/gpa.svg)](https://codeclimate.com/github/guyellis/packcomp)
 
