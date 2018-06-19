@@ -1,11 +1,19 @@
 module.exports = {
-  "env": {
-    "node": true,
-    "jest": true
+  env: {
+    jest: true,
+    node: true,
   },
-  "extends": [
-    "guyellis"
+  extends: [
+    'airbnb-base',
   ],
-  "rules": {
+  plugins: [
+    'jest'
+  ],
+  rules: {
+    'jest/no-disabled-tests': [2],
+    'jest/no-focused-tests': [2],
+    'jest/no-identical-title': [2],
+    'jest/prefer-to-have-length': [2],
+    'jest/valid-expect': [2],
   }
 };
