@@ -1,3 +1,7 @@
+1.0.0
+
+* Breaking: Node 8+ and Npm 5+
+
 0.0.3
 
 * Allow unlimited package.json comparisons instead of two.
