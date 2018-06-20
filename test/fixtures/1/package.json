@@ -1,0 +1,59 @@
+{
+  "author": "Guy Ellis <wildfiction@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/guyellis/nth-day/issues"
+  },
+  "dependencies": {
+    "moment": "2.19.4"
+  },
+  "description": "Find the nth day (e.g. 3rd Tuesday) in any month",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.3",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-1": "6.24.1",
+    "babel-register": "6.26.0",
+    "eslint": "4.13.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-security": "1.4.0",
+    "mocha": "4.0.1",
+    "nyc": "11.3.0",
+    "pre-commit": "1.2.2",
+    "rimraf": "2.6.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/guyellis/nth-day#readme",
+  "keywords": [
+    "date",
+    "utility",
+    "nth",
+    "day"
+  ],
+  "license": "MIT",
+  "main": "lib/nth-day.js",
+  "name": "nth-day",
+  "pre-commit": {
+    "colors": true,
+    "run": [
+      "lint",
+      "test"
+    ],
+    "silent": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyellis/nth-day.git"
+  },
+  "scripts": {
+    "build": ". scripts/build.sh",
+    "coverage": "nyc --require babel-register mocha",
+    "lint": "eslint --ext .js .",
+    "lintfix": "eslint --fix --ext .js .",
+    "prepublishOnly": "npm run build",
+    "test": "npm run coverage"
+  },
+  "version": "2.0.0"
+}

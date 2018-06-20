@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cli should get contents 1`] = `
+Array [
+  Object {
+    "dependencies": Object {
+      "moment": "2.19.4",
+    },
+    "devDependencies": Object {
+      "babel-cli": "6.26.0",
+      "babel-core": "6.26.0",
+      "babel-eslint": "8.0.3",
+      "babel-preset-es2015": "6.24.1",
+      "babel-preset-stage-1": "6.24.1",
+      "babel-register": "6.26.0",
+      "eslint": "4.13.1",
+      "eslint-config-airbnb-base": "12.1.0",
+      "eslint-plugin-security": "1.4.0",
+      "mocha": "4.0.1",
+      "nyc": "11.3.0",
+      "pre-commit": "1.2.2",
+      "rimraf": "2.6.2",
+    },
+  },
+  Object {
+    "dependencies": Object {
+      "async": "2.6.1",
+      "debug": "3.1.0",
+      "lodash": "4.17.10",
+      "nodemailer": "4.6.5",
+      "request": "2.87.0",
+      "string": "3.3.3",
+      "sugar": "2.0.4",
+    },
+    "devDependencies": Object {
+      "bunyan": "1.8.12",
+      "chai": "4.1.2",
+      "coveralls": "3.0.1",
+      "eslint": "4.19.1",
+      "eslint-config-guyellis": "0.0.6",
+      "istanbul": "0.4.5",
+      "mocha": "5.2.0",
+      "npm-update-outdated": "0.1.6",
+      "pre-commit": "1.2.2",
+      "rewire": "4.0.1",
+    },
+  },
+  Object {
+    "dependencies": Object {
+      "console.table": "0.10.0",
+      "debug": "3.1.0",
+      "lodash": "4.17.10",
+      "minimist": "1.2.0",
+    },
+    "devDependencies": Object {
+      "eslint": "4.19.1",
+      "eslint-config-airbnb-base": "12.1.0",
+      "eslint-plugin-import": "2.12.0",
+      "eslint-plugin-jest": "21.17.0",
+      "jest": "23.1.0",
+    },
+  },
+]
+`;

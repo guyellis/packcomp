@@ -1,0 +1,73 @@
+{
+  "allSites": {
+    "excludedHeaders": [],
+    "requestHeaders": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0"
+    }
+  },
+  "author": "Guy Ellis <wildfiction@gmail.com> (http://www.guyellisrocks.com/)",
+  "bugs": {
+    "url": "https://github.com/guyellis/http-status-check/issues"
+  },
+  "concurrentRequests": 10,
+  "dependencies": {
+    "async": "2.6.1",
+    "debug": "3.1.0",
+    "lodash": "4.17.10",
+    "nodemailer": "4.6.5",
+    "request": "2.87.0",
+    "string": "3.3.3",
+    "sugar": "2.0.4"
+  },
+  "description": "Utility to check the HTTP status of URL endpoints",
+  "devDependencies": {
+    "bunyan": "1.8.12",
+    "chai": "4.1.2",
+    "coveralls": "3.0.1",
+    "eslint": "4.19.1",
+    "eslint-config-guyellis": "0.0.6",
+    "istanbul": "0.4.5",
+    "mocha": "5.2.0",
+    "npm-update-outdated": "0.1.6",
+    "pre-commit": "1.2.2",
+    "rewire": "4.0.1"
+  },
+  "engines": {
+    "node": ">= 6.2"
+  },
+  "homepage": "https://github.com/guyellis/http-status-check",
+  "inAdapter": {
+    "type": "./lib/inAdapters/fileAdapter"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "checker"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "http-status-check",
+  "pre-commit": [
+    "lint",
+    "coverage",
+    "check-coverage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guyellis/http-status-check.git"
+  },
+  "scripts": {
+    "check-coverage": "node_modules/.bin/istanbul check-coverage ./coverage/coverage.json",
+    "coverage": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- ./test/ --recursive",
+    "coveralls": "node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js --verbose",
+    "lint": "node_modules/.bin/eslint --ext .js .",
+    "lintfix": "node_modules/.bin/eslint --ext .js . --fix",
+    "post-commit-stash-pop": "git stash pop",
+    "posttest": "npm run lint",
+    "pre-commit-stash-save": "git stash --keep-index",
+    "pre-commit-update": "node_modules/.bin/npm-update-outdated",
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha ./test/ --recursive"
+  },
+  "version": "1.1.0"
+}
