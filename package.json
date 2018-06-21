@@ -46,7 +46,7 @@
     "coverage": "jest --coverage",
     "lint": "eslint --ext .js . --max-warnings 0",
     "lintfix": "eslint --ext .js . --fix",
-    "test": "jest"
+    "test": "npm run lint && npm run coverage"
   },
   "version": "1.0.0"
 }

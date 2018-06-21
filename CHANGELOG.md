@@ -1,3 +1,8 @@
+1.1.0
+
+* Feature: Also show peerDependencies (@bcullman)
+* Feature: Regex filter on dependencies (@bcullman)
+
 1.0.0
 
 * Breaking: Node 8+ and Npm 5+
@@ -8,7 +13,7 @@
 
 0.0.2
 
-* Fix minore bugs
+* Fix minor bugs
 
 0.0.1
 
