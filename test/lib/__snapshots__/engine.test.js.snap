@@ -62,3 +62,11 @@ Array [
   },
 ]
 `;
+
+exports[`cli should get titles 1`] = `
+Array [
+  "1",
+  "2",
+  "3",
+]
+`;
