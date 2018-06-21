@@ -18,7 +18,8 @@
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.12.0",
     "eslint-plugin-jest": "21.17.0",
-    "jest": "23.1.0"
+    "jest": "23.1.0",
+    "pre-commit": "1.2.2"
   },
   "engines": {
     "node": ">=8",
@@ -34,6 +35,13 @@
   "license": "MIT",
   "main": "./bin/packcomp.js",
   "name": "packcomp",
+  "pre-commit": {
+    "colors": true,
+    "run": [
+      "test"
+    ],
+    "silent": false
+  },
   "public": true,
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
@@ -48,5 +56,5 @@
     "lintfix": "eslint --ext .js . --fix",
     "test": "npm run lint && npm run coverage"
   },
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
