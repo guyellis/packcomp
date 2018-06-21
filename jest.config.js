@@ -10,10 +10,10 @@ module.exports = {
   ],
   coverageThreshold: {
     global: {
-      branches: 2,
-      functions: 2,
-      lines: 2,
-      statements: 2,
+      branches: 60,
+      functions: 60,
+      lines: 60,
+      statements: 60,
     },
   },
   // setupTestFrameworkScriptFile: './test/setup.js',

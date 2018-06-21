@@ -2,6 +2,7 @@ const {
   getContents,
   getTitles,
   getFilter,
+  getDependencies,
 } = require('../../lib/engine');
 
 describe('engine', () => {
@@ -26,6 +27,18 @@ describe('engine', () => {
       ],
     };
     const contents = getTitles(argv);
+    expect(contents).toMatchSnapshot();
+  });
+
+  test('should get dependencies', () => {
+    const argv = {
+      _: [
+        'test/fixtures/1/',
+        'test/fixtures/2/package.json',
+        'test/fixtures/3/',
+      ],
+    };
+    const contents = getDependencies(argv);
     expect(contents).toMatchSnapshot();
   });
 
