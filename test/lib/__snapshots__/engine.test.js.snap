@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`cli should get contents 1`] = `
+exports[`engine should get contents 1`] = `
 Array [
   Object {
     "dependencies": Object {
@@ -63,7 +63,7 @@ Array [
 ]
 `;
 
-exports[`cli should get titles 1`] = `
+exports[`engine should get titles 1`] = `
 Array [
   "1",
   "2",

@@ -4,7 +4,7 @@ const {
   getFilter,
 } = require('../../lib/engine');
 
-describe('cli', () => {
+describe('engine', () => {
   test('should get contents', () => {
     const argv = {
       _: [
