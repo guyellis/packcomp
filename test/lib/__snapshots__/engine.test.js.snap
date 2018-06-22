@@ -278,3 +278,11 @@ Array [
   "3",
 ]
 `;
+
+exports[`engine should work when dependencies are identical 1`] = `
+Object {
+  "dependencies": Array [],
+  "devDependencies": Array [],
+  "peerDependencies": Array [],
+}
+`;

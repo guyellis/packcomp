@@ -25,4 +25,20 @@ describe('cli', () => {
 
     expect.assertions(6);
   });
+
+  test('should get help', () => {
+    const procArgv = [
+      'node',
+      'cli.js',
+      'help',
+    ];
+
+    global.console = {
+      log: jest.fn(),
+    };
+
+    cli(procArgv);
+
+    expect(global.console.log).toHaveBeenCalledTimes(1);
+  });
 });
