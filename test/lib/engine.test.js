@@ -6,7 +6,7 @@ const {
 } = require('../../lib/engine');
 
 describe('engine', () => {
-  test('should get contents', () => {
+  test('should get contents', async () => {
     const argv = {
       _: [
         'test/fixtures/1/',
@@ -14,7 +14,7 @@ describe('engine', () => {
         'test/fixtures/3/',
       ],
     };
-    const contents = getContents(argv);
+    const contents = await getContents(argv);
     expect(contents).toMatchSnapshot();
   });
 
@@ -30,7 +30,7 @@ describe('engine', () => {
     expect(contents).toMatchSnapshot();
   });
 
-  test('should get dependencies', () => {
+  test('should get dependencies', async () => {
     const argv = {
       _: [
         'test/fixtures/1/',
@@ -38,11 +38,11 @@ describe('engine', () => {
         'test/fixtures/3/',
       ],
     };
-    const contents = getDependencies(argv);
+    const contents = await getDependencies(argv);
     expect(contents).toMatchSnapshot();
   });
 
-  test('should work when dependencies are identical', () => {
+  test('should work when dependencies are identical', async () => {
     const argv = {
       _: [
         'test/fixtures/1/',
@@ -50,7 +50,7 @@ describe('engine', () => {
         'test/fixtures/1/',
       ],
     };
-    const contents = getDependencies(argv);
+    const contents = await getDependencies(argv);
     expect(contents).toMatchSnapshot();
   });
 

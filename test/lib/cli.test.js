@@ -1,7 +1,7 @@
 const cli = require('../../lib/cli');
 
 describe('cli', () => {
-  test('should get dependencies', () => {
+  test('should get dependencies', async () => {
     const procArgv = [
       'node',
       'cli.js',
@@ -21,7 +21,7 @@ describe('cli', () => {
       },
     };
 
-    cli(procArgv);
+    await cli(procArgv);
 
     expect.assertions(6);
   });
