@@ -16,11 +16,20 @@ two or more `package.json` files.
 
 `packcomp <package.json #1> <package.json #2> [<package.json #3>...]`
 
-If the version number is not identical or missing in one of the packages then it will be reported. If it is identical in all packages then it will be ignored and skipped (i.e. no output).
+If the version number is not identical or missing in one of the packages then it will
+be reported. If it is identical in all packages then it will be ignored and skipped
+(i.e. no output).
 
-# Example
+The package.json files can be relative paths to local files or URLs that will return a
+package.json object or a mixture of both.
 
-`packcomp . ../other-repo1 ../other-repo2`
+# Examples
+
+```shell
+packcomp . ../other-repo1 ../other-repo2
+
+packcomp ../path/to/package/file/ https://<somedomain.com>/<some-path>/package.json
+```
 
 # Example Output
 

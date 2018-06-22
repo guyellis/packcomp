@@ -1,3 +1,7 @@
+1.2.0
+
+* Feature: Allow reading of package.json from url
+
 1.1.0
 
 * Feature: Also show peerDependencies (@bcullman)
