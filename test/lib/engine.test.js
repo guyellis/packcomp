@@ -68,6 +68,27 @@ describe('engine', () => {
     expect(contents).toMatchSnapshot();
   });
 
+  test('should handle fetch errors with URLs', async () => {
+    const argv = {
+      _: [
+        'test/fixtures/1/',
+        'test/fixtures/2/package.json',
+        'https://some-domain.com/some-package.json',
+      ],
+    };
+
+    global.console = {
+      error: jest.fn(),
+    };
+
+    const resp = { status: 404 };
+    fetch.mockResolvedValue(resp);
+
+    const contents = await getDependencies(argv);
+    expect(contents).toMatchSnapshot();
+    expect(global.console.error).toHaveBeenCalledTimes(1);
+  });
+
   test('should work when dependencies are identical', async () => {
     const argv = {
       _: [

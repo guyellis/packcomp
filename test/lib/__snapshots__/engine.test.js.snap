@@ -487,6 +487,184 @@ Array [
 ]
 `;
 
+exports[`engine should handle fetch errors with URLs 1`] = `
+Object {
+  "dependencies": Array [
+    Object {
+      "1": "2.19.4",
+      "2": "missing",
+      "Module": "moment",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "2.6.1",
+      "Module": "async",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "3.1.0",
+      "Module": "debug",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "4.17.10",
+      "Module": "lodash",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "4.6.5",
+      "Module": "nodemailer",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "2.87.0",
+      "Module": "request",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "3.3.3",
+      "Module": "string",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "2.0.4",
+      "Module": "sugar",
+      "some-package.json": "missing",
+    },
+  ],
+  "devDependencies": Array [
+    Object {
+      "1": "6.26.0",
+      "2": "missing",
+      "Module": "babel-cli",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "6.26.0",
+      "2": "missing",
+      "Module": "babel-core",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "8.0.3",
+      "2": "missing",
+      "Module": "babel-eslint",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "6.24.1",
+      "2": "missing",
+      "Module": "babel-preset-es2015",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "6.24.1",
+      "2": "missing",
+      "Module": "babel-preset-stage-1",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "6.26.0",
+      "2": "missing",
+      "Module": "babel-register",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "4.13.1",
+      "2": "4.19.1",
+      "Module": "eslint",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "12.1.0",
+      "2": "missing",
+      "Module": "eslint-config-airbnb-base",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "1.4.0",
+      "2": "missing",
+      "Module": "eslint-plugin-security",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "4.0.1",
+      "2": "5.2.0",
+      "Module": "mocha",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "11.3.0",
+      "2": "missing",
+      "Module": "nyc",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "1.2.2",
+      "2": "1.2.2",
+      "Module": "pre-commit",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "2.6.2",
+      "2": "missing",
+      "Module": "rimraf",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "1.8.12",
+      "Module": "bunyan",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "4.1.2",
+      "Module": "chai",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "3.0.1",
+      "Module": "coveralls",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "0.0.6",
+      "Module": "eslint-config-guyellis",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "0.4.5",
+      "Module": "istanbul",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "0.1.6",
+      "Module": "npm-update-outdated",
+      "some-package.json": "missing",
+    },
+    Object {
+      "1": "missing",
+      "2": "4.0.1",
+      "Module": "rewire",
+      "some-package.json": "missing",
+    },
+  ],
+  "peerDependencies": Array [],
+}
+`;
+
 exports[`engine should work when dependencies are identical 1`] = `
 Object {
   "dependencies": Array [],
