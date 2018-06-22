@@ -4,7 +4,6 @@ jest.mock('node-fetch');
 
 const {
   getContents,
-  getTitles,
   getFilter,
   getDependencies,
 } = require('../../lib/engine');
@@ -25,18 +24,6 @@ describe('engine', () => {
       ],
     };
     const contents = await getContents(argv);
-    expect(contents).toMatchSnapshot();
-  });
-
-  test('should get titles', () => {
-    const argv = {
-      _: [
-        'test/fixtures/1/',
-        'test/fixtures/2/package.json',
-        'test/fixtures/3/',
-      ],
-    };
-    const contents = getTitles(argv);
     expect(contents).toMatchSnapshot();
   });
 
