@@ -7,6 +7,7 @@
     "url": "https://github.com/guyellis/packcomp/issues"
   },
   "dependencies": {
+    "array-pivot": "1.0.1",
     "console.table": "0.10.0",
     "debug": "3.1.0",
     "lodash": "4.17.10",
