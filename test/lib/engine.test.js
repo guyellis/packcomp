@@ -39,6 +39,19 @@ describe('engine', () => {
     expect(contents).toMatchSnapshot();
   });
 
+  test('should get pivoted dependencies', async () => {
+    const argv = {
+      p: true,
+      _: [
+        'test/fixtures/1/',
+        'test/fixtures/2/package.json',
+        'test/fixtures/3/',
+      ],
+    };
+    const contents = await getDependencies(argv);
+    expect(contents).toMatchSnapshot();
+  });
+
   test('should get dependencies with URLs', async () => {
     const argv = {
       _: [

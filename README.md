@@ -62,7 +62,9 @@ sinon                missing   ^1.14.1   ^1.14.1
 
 # Filter Example
 
-`packcomp -f 'n*' . ../other-repo1 ../other-repo2`
+```shell
+packcomp -f 'n*' . ../other-repo1 ../other-repo2
+```
 
 # Filtered Example Output
 
@@ -77,5 +79,11 @@ DevDependencies:
 Module               Repo #1   Repo #2   Repo #3
 -------------------  --------  --------  -----------------
 npm-update-outdated  missing   ^0.1.4    ^0.1.4
+```
+
+# Pivot Example
+
+```shell
+packcomp --p . ../other-repo1 ../other-repo2
 ```
 

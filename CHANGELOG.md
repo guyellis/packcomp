@@ -1,3 +1,7 @@
+1.3.0
+
+* Feature: Pivot the output to make large collection of repos more readable
+
 1.2.0
 
 * Feature: Allow reading of package.json from url
