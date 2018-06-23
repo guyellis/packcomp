@@ -1,3 +1,7 @@
+1.3.1
+
+* Fix: Remove an errant console.log statement
+
 1.3.0
 
 * Feature: Pivot the output to make large collection of repos more readable
