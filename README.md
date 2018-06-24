@@ -87,3 +87,20 @@ npm-update-outdated  missing   ^0.1.4    ^0.1.4
 packcomp --p . ../other-repo1 ../other-repo2
 ```
 
+# Pivot Example Output
+```
+Dependencies:
+Repo     console.table  debug   lodash  minimist
+-------  -------------  ------  ------  --------
+Repo #1  ^0.4.0         ^2.2.0  ^3.9.3  ^1.1.1
+Repo #2  missing        ^2.2.0  ^3.9.1  ^1.1.1
+Repo #3  missing        2.1.3   3.8.0   missing
+
+DevDependencies:
+Repo     eslint   chai     istanbul  mocha  
+-------  -------  -------  --------  -------
+Repo #1  ^0.22.1  missing  missing   missing
+Repo #2  ^0.21.1  ^2.3.0   ^0.3.13   ^2.2.4
+Repo #3  ^0.20.0  missing  ^0.3.13   ^2.2.4
+```
+
