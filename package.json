@@ -15,7 +15,7 @@
   },
   "description": "Compare Dependencies in two or more package.json files",
   "devDependencies": {
-    "eslint": "5.14.1",
+    "eslint": "5.15.0",
     "eslint-config-airbnb-base": "13.0.0",
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jest": "22.3.0",
