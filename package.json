@@ -10,7 +10,7 @@
     "console.table": "0.10.0",
     "debug": "4.1.1",
     "lodash": "4.17.19",
-    "minimist": "1.2.0",
+    "minimist": "1.2.3",
     "node-fetch": "2.6.1"
   },
   "description": "Compare Dependencies in two or more package.json files",
