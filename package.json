@@ -1,7 +1,7 @@
 {
   "author": "Guy Ellis <wildfiction@gmail.com>",
   "bin": {
-    "packcomp": "./bin/packcomp.js"
+    "packcomp": "bin/packcomp.js"
   },
   "bugs": {
     "url": "https://github.com/guyellis/packcomp/issues"
