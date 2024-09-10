@@ -7,7 +7,7 @@ module.exports = {
     'airbnb-base',
   ],
   plugins: [
-    'jest'
+    'jest',
   ],
   rules: {
     'jest/no-disabled-tests': [2],
@@ -15,5 +15,5 @@ module.exports = {
     'jest/no-identical-title': [2],
     'jest/prefer-to-have-length': [2],
     'jest/valid-expect': [2],
-  }
+  },
 };
