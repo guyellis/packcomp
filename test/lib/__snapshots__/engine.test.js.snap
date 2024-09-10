@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`engine should get contents 1`] = `
-Array [
-  Object {
-    "dependencies": Object {
+[
+  {
+    "dependencies": {
       "moment": "2.19.4",
     },
-    "devDependencies": Object {
+    "devDependencies": {
       "babel-cli": "6.26.0",
       "babel-core": "6.26.0",
       "babel-eslint": "8.0.3",
@@ -23,8 +23,8 @@ Array [
     },
     "name": "nth-day",
   },
-  Object {
-    "dependencies": Object {
+  {
+    "dependencies": {
       "async": "2.6.1",
       "debug": "3.1.0",
       "lodash": "4.17.10",
@@ -33,7 +33,7 @@ Array [
       "string": "3.3.3",
       "sugar": "2.0.4",
     },
-    "devDependencies": Object {
+    "devDependencies": {
       "bunyan": "1.8.12",
       "chai": "4.1.2",
       "coveralls": "3.0.1",
@@ -47,14 +47,14 @@ Array [
     },
     "name": "http-status-check",
   },
-  Object {
-    "dependencies": Object {
+  {
+    "dependencies": {
       "console.table": "0.10.0",
       "debug": "3.1.0",
       "lodash": "4.17.10",
       "minimist": "1.2.0",
     },
-    "devDependencies": Object {
+    "devDependencies": {
       "eslint": "4.19.1",
       "eslint-config-airbnb-base": "12.1.0",
       "eslint-plugin-import": "2.12.0",
@@ -67,425 +67,425 @@ Array [
 `;
 
 exports[`engine should get dependencies 1`] = `
-Object {
-  "dependencies": Array [
-    Object {
+{
+  "dependencies": [
+    {
       "Module": "moment",
       "http-status-check": "missing",
       "nth-day": "2.19.4",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "async",
       "http-status-check": "2.6.1",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "debug",
       "http-status-check": "3.1.0",
       "nth-day": "missing",
       "packcomp": "3.1.0",
     },
-    Object {
+    {
       "Module": "lodash",
       "http-status-check": "4.17.10",
       "nth-day": "missing",
       "packcomp": "4.17.10",
     },
-    Object {
+    {
       "Module": "nodemailer",
       "http-status-check": "4.6.5",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "request",
       "http-status-check": "2.87.0",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "string",
       "http-status-check": "3.3.3",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "sugar",
       "http-status-check": "2.0.4",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "console.table",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "0.10.0",
     },
-    Object {
+    {
       "Module": "minimist",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "1.2.0",
     },
   ],
-  "devDependencies": Array [
-    Object {
+  "devDependencies": [
+    {
       "Module": "babel-cli",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-core",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-eslint",
       "http-status-check": "missing",
       "nth-day": "8.0.3",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-preset-es2015",
       "http-status-check": "missing",
       "nth-day": "6.24.1",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-preset-stage-1",
       "http-status-check": "missing",
       "nth-day": "6.24.1",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-register",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "eslint",
       "http-status-check": "4.19.1",
       "nth-day": "4.13.1",
       "packcomp": "4.19.1",
     },
-    Object {
+    {
       "Module": "eslint-config-airbnb-base",
       "http-status-check": "missing",
       "nth-day": "12.1.0",
       "packcomp": "12.1.0",
     },
-    Object {
+    {
       "Module": "eslint-plugin-security",
       "http-status-check": "missing",
       "nth-day": "1.4.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "mocha",
       "http-status-check": "5.2.0",
       "nth-day": "4.0.1",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "nyc",
       "http-status-check": "missing",
       "nth-day": "11.3.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "pre-commit",
       "http-status-check": "1.2.2",
       "nth-day": "1.2.2",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "rimraf",
       "http-status-check": "missing",
       "nth-day": "2.6.2",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "bunyan",
       "http-status-check": "1.8.12",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "chai",
       "http-status-check": "4.1.2",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "coveralls",
       "http-status-check": "3.0.1",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "eslint-config-guyellis",
       "http-status-check": "0.0.6",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "istanbul",
       "http-status-check": "0.4.5",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "npm-update-outdated",
       "http-status-check": "0.1.6",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "rewire",
       "http-status-check": "4.0.1",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "eslint-plugin-import",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "2.12.0",
     },
-    Object {
+    {
       "Module": "eslint-plugin-jest",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "21.17.0",
     },
-    Object {
+    {
       "Module": "jest",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "23.1.0",
     },
   ],
-  "peerDependencies": Array [],
+  "peerDependencies": [],
 }
 `;
 
 exports[`engine should get dependencies with URLs 1`] = `
-Object {
-  "dependencies": Array [
-    Object {
+{
+  "dependencies": [
+    {
       "Module": "moment",
       "http-status-check": "missing",
       "nth-day": "2.19.4",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "async",
       "http-status-check": "2.6.1",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "debug",
       "http-status-check": "3.1.0",
       "nth-day": "missing",
       "packcomp": "3.1.0",
     },
-    Object {
+    {
       "Module": "lodash",
       "http-status-check": "4.17.10",
       "nth-day": "missing",
       "packcomp": "4.17.10",
     },
-    Object {
+    {
       "Module": "nodemailer",
       "http-status-check": "4.6.5",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "request",
       "http-status-check": "2.87.0",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "string",
       "http-status-check": "3.3.3",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "sugar",
       "http-status-check": "2.0.4",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "console.table",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "0.10.0",
     },
-    Object {
+    {
       "Module": "minimist",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "1.2.0",
     },
   ],
-  "devDependencies": Array [
-    Object {
+  "devDependencies": [
+    {
       "Module": "babel-cli",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-core",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-eslint",
       "http-status-check": "missing",
       "nth-day": "8.0.3",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-preset-es2015",
       "http-status-check": "missing",
       "nth-day": "6.24.1",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-preset-stage-1",
       "http-status-check": "missing",
       "nth-day": "6.24.1",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "babel-register",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "eslint",
       "http-status-check": "4.19.1",
       "nth-day": "4.13.1",
       "packcomp": "4.19.1",
     },
-    Object {
+    {
       "Module": "eslint-config-airbnb-base",
       "http-status-check": "missing",
       "nth-day": "12.1.0",
       "packcomp": "12.1.0",
     },
-    Object {
+    {
       "Module": "eslint-plugin-security",
       "http-status-check": "missing",
       "nth-day": "1.4.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "mocha",
       "http-status-check": "5.2.0",
       "nth-day": "4.0.1",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "nyc",
       "http-status-check": "missing",
       "nth-day": "11.3.0",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "pre-commit",
       "http-status-check": "1.2.2",
       "nth-day": "1.2.2",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "rimraf",
       "http-status-check": "missing",
       "nth-day": "2.6.2",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "bunyan",
       "http-status-check": "1.8.12",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "chai",
       "http-status-check": "4.1.2",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "coveralls",
       "http-status-check": "3.0.1",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "eslint-config-guyellis",
       "http-status-check": "0.0.6",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "istanbul",
       "http-status-check": "0.4.5",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "npm-update-outdated",
       "http-status-check": "0.1.6",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "rewire",
       "http-status-check": "4.0.1",
       "nth-day": "missing",
       "packcomp": "missing",
     },
-    Object {
+    {
       "Module": "eslint-plugin-import",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "2.12.0",
     },
-    Object {
+    {
       "Module": "eslint-plugin-jest",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "21.17.0",
     },
-    Object {
+    {
       "Module": "jest",
       "http-status-check": "missing",
       "nth-day": "missing",
       "packcomp": "23.1.0",
     },
   ],
-  "peerDependencies": Array [],
+  "peerDependencies": [],
 }
 `;
 
 exports[`engine should get pivoted dependencies 1`] = `
-Object {
-  "dependencies": Array [
-    Object {
+{
+  "dependencies": [
+    {
       "Repo": "nth-day",
       "async": "missing",
       "console.table": "missing",
@@ -498,7 +498,7 @@ Object {
       "string": "missing",
       "sugar": "missing",
     },
-    Object {
+    {
       "Repo": "http-status-check",
       "async": "2.6.1",
       "console.table": "missing",
@@ -511,7 +511,7 @@ Object {
       "string": "3.3.3",
       "sugar": "2.0.4",
     },
-    Object {
+    {
       "Repo": "packcomp",
       "async": "missing",
       "console.table": "0.10.0",
@@ -525,8 +525,8 @@ Object {
       "sugar": "missing",
     },
   ],
-  "devDependencies": Array [
-    Object {
+  "devDependencies": [
+    {
       "Repo": "nth-day",
       "babel-cli": "6.26.0",
       "babel-core": "6.26.0",
@@ -552,7 +552,7 @@ Object {
       "rewire": "missing",
       "rimraf": "2.6.2",
     },
-    Object {
+    {
       "Repo": "http-status-check",
       "babel-cli": "missing",
       "babel-core": "missing",
@@ -578,7 +578,7 @@ Object {
       "rewire": "4.0.1",
       "rimraf": "missing",
     },
-    Object {
+    {
       "Repo": "packcomp",
       "babel-cli": "missing",
       "babel-core": "missing",
@@ -605,192 +605,192 @@ Object {
       "rimraf": "missing",
     },
   ],
-  "peerDependencies": Array [],
+  "peerDependencies": [],
 }
 `;
 
 exports[`engine should handle fetch errors with URLs 1`] = `
-Object {
-  "dependencies": Array [
-    Object {
+{
+  "dependencies": [
+    {
       "#1": "missing",
       "Module": "moment",
       "http-status-check": "missing",
       "nth-day": "2.19.4",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "async",
       "http-status-check": "2.6.1",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "debug",
       "http-status-check": "3.1.0",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "lodash",
       "http-status-check": "4.17.10",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "nodemailer",
       "http-status-check": "4.6.5",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "request",
       "http-status-check": "2.87.0",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "string",
       "http-status-check": "3.3.3",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "sugar",
       "http-status-check": "2.0.4",
       "nth-day": "missing",
     },
   ],
-  "devDependencies": Array [
-    Object {
+  "devDependencies": [
+    {
       "#1": "missing",
       "Module": "babel-cli",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "babel-core",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "babel-eslint",
       "http-status-check": "missing",
       "nth-day": "8.0.3",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "babel-preset-es2015",
       "http-status-check": "missing",
       "nth-day": "6.24.1",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "babel-preset-stage-1",
       "http-status-check": "missing",
       "nth-day": "6.24.1",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "babel-register",
       "http-status-check": "missing",
       "nth-day": "6.26.0",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "eslint",
       "http-status-check": "4.19.1",
       "nth-day": "4.13.1",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "eslint-config-airbnb-base",
       "http-status-check": "missing",
       "nth-day": "12.1.0",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "eslint-plugin-security",
       "http-status-check": "missing",
       "nth-day": "1.4.0",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "mocha",
       "http-status-check": "5.2.0",
       "nth-day": "4.0.1",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "nyc",
       "http-status-check": "missing",
       "nth-day": "11.3.0",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "pre-commit",
       "http-status-check": "1.2.2",
       "nth-day": "1.2.2",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "rimraf",
       "http-status-check": "missing",
       "nth-day": "2.6.2",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "bunyan",
       "http-status-check": "1.8.12",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "chai",
       "http-status-check": "4.1.2",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "coveralls",
       "http-status-check": "3.0.1",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "eslint-config-guyellis",
       "http-status-check": "0.0.6",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "istanbul",
       "http-status-check": "0.4.5",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "npm-update-outdated",
       "http-status-check": "0.1.6",
       "nth-day": "missing",
     },
-    Object {
+    {
       "#1": "missing",
       "Module": "rewire",
       "http-status-check": "4.0.1",
       "nth-day": "missing",
     },
   ],
-  "peerDependencies": Array [],
+  "peerDependencies": [],
 }
 `;
 
 exports[`engine should work when dependencies are identical 1`] = `
-Object {
-  "dependencies": Array [],
-  "devDependencies": Array [],
-  "peerDependencies": Array [],
+{
+  "dependencies": [],
+  "devDependencies": [],
+  "peerDependencies": [],
 }
 `;
