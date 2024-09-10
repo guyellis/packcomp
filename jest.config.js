@@ -10,12 +10,15 @@ module.exports = {
   ],
   coverageThreshold: {
     global: {
-      branches: 60,
-      functions: 60,
-      lines: 60,
-      statements: 60,
+      branches: 97,
+      functions: 100,
+      lines: 100,
+      statements: 100,
     },
   },
   // setupTestFrameworkScriptFile: './test/setup.js',
   testMatch: ['**/test/**/*.test.js'],
+  transformIgnorePatterns: [
+    '<rootDir>/test/fixtures/3/package.json',
+  ],
 };
