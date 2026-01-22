@@ -9,7 +9,7 @@
   "dependencies": {
     "console.table": "0.10.0",
     "debug": "4.3.7",
-    "lodash": "4.17.21",
+    "lodash": "4.17.23",
     "minimist": "1.2.8",
     "node-fetch": "2.7.0"
   },
